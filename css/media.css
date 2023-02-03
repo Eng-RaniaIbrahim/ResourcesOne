@@ -1,0 +1,83 @@
+@media ( max-width : 992px) {
+    .hero .container .row .hero-text{
+        text-align: center;
+    }
+    .hero .container .row .hero-text h1 {
+        font-size: 30px;
+    }
+    .hero .container .row .hero-text p {
+        font-size: 15px;
+    }
+    .Global-Talent .container .row .col-md-7 h3 {
+        font-size: 25px;
+    }
+    .Global-Talent .container .row .resources h3{
+        padding: 15px;
+        font-size: 20px;
+    }
+    .Global-Talent .container .row .resources .minicards {
+        padding: 30px 10px;
+    }
+    section.offers h2 {
+        font-size: 25px;
+    }
+    section.subscribe .container > .row {
+        padding: 50px 5px;
+    }
+    section.subscribe .container > .row h2{
+        font-size: 20px;
+    }
+}
+/*===================================*/
+@media(max-width:768px){
+    
+
+.Hot-Jobs .container .row .HotJobs .white .row img{
+    width:200px;
+}
+    .Hot-Jobs .container .row .HotJobs .white .row .Full {
+        left:-221px;
+    }
+    section.subscribe .container > .row span{
+        font-size:14px;
+    }
+}
+/*===================================*/
+@media(max-width:576px){
+    section.subscribe .container > .row button{
+        font-size: 14px;
+        padding-right: 1px;
+        padding-left: 1px;
+        
+    }
+    .forms .container .row form input[type="checkbox"] + label{
+        font-size: 13px;
+    }
+    .login .container .row h3{
+        font-size: 20px;
+    }
+    .login{
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .login .container .row form .reg a{
+        font-size: 15px;
+        padding: 50px 0px;
+    }
+    .hero .social-links {
+        left: -97px;
+        transform: translateY(0%);
+    }
+    .hero .social-links .yt:hover,
+  .hero .social-links .fb:hover,
+  .hero .social-links .tg:hover,
+  .hero .social-links .lk:hover {
+    transform: translateX(97px);
+  }
+  .hero .social-links .yt,
+  .hero .social-links .fb,
+  .hero .social-links .tg,
+  .hero .social-links .lk {
+    padding: 5px 10px;
+  }
+}

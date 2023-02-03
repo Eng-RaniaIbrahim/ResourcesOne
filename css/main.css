@@ -1,0 +1,827 @@
+/*===========header===============*/
+header .top-header .row .col-6 span{
+    color:#2042e3;
+    font-weight: 600;
+}
+header .top-header .row .col-6 a{
+ color:#454545;
+ text-decoration: none;
+ font-weight: 500;
+ font-size:15px;
+}
+header .top-header .row .col-6 a:hover{
+    color:#2042e3;
+    text-decoration:underline;
+}
+/*============navbar=============*/
+.fixed-top{
+  z-index: 9999999999999999999999999999999999999999999;
+}
+
+header nav{
+    box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+    background-color: white;
+
+    
+}
+header  nav .container button{
+    border:none ;  
+}
+header  nav .container button i{
+    font-size: 40px;
+    color:black;
+}
+header  nav .container #navbarSupportedContent ul li a{
+    font-weight: 600;
+    color: #1a1a1a;
+}
+header  nav .container #navbarSupportedContent ul li a.active,
+header  nav .container #navbarSupportedContent ul li a:hover{
+    color:#2042e3;
+}
+/*========== end header===========*/
+/*=============== main===============*/
+.hero{
+    background-color: white;
+    position: relative;
+}
+/* ################### */
+.hero .social-links {
+    position: absolute;
+    top: 50%;
+    left: -90px;
+    transform: translateY(-50%);
+  }
+  .hero .social-links ul {
+    padding: 0;
+  }
+  .hero .social-links .yt,
+  .hero .social-links .fb,
+  .hero .social-links .tg,
+  .hero .social-links .lk {
+    position: relative;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: none;
+    transition: all 0.5s;
+    padding: 15px 10px;
+    cursor: pointer;
+    list-style-type: none;
+  }
+  .hero .social-links li i {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+  .hero .social-links .yt {
+    background-color: rgba(237, 31, 36, 0.1);
+    border: 2px solid rgb(237, 31, 36);
+  }
+  .hero .social-links .fb {
+    background-color: rgba(23, 119, 242, 0.1);
+    border: 2px solid rgb(23, 119, 242);
+  }
+  .hero .social-links .tg {
+    background-color: rgba(34, 167, 240, 0.1);
+    border: 2px solid rgb(34, 167, 240);
+  }
+  .hero .social-links .lk {
+    background-color: rgba(10, 102, 194, 0.1);
+    border: 2px solid rgb(10, 102, 194);
+  }
+  .hero .social-links .yt a,
+  .hero .social-links .fb a,
+  .hero .social-links .tg a,
+  .hero .social-links .lk a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .hero .social-links .yt a {
+    color: rgb(237, 31, 36);
+  }
+  .hero .social-links .fb a {
+    color: rgb(23, 119, 242);
+  }
+  .hero .social-links .tg a {
+    color: rgb(34, 167, 240);
+  }
+  .hero .social-links .lk a {
+    color: rgb(10, 102, 194);
+  }
+  .hero .social-links .yt:hover,
+  .hero .social-links .fb:hover,
+  .hero .social-links .tg:hover,
+  .hero .social-links .lk:hover {
+    transform: translateX(90px);
+  }
+  .hero .social-links .yt:hover {
+    background-color: rgb(237, 31, 36);
+  }
+  .hero .social-links .fb:hover {
+    background-color: rgb(23, 119, 242);
+  }
+  .hero .social-links .tg:hover {
+    background-color: rgb(34, 167, 240);
+  }
+  .hero .social-links .lk:hover {
+    background-color: rgb(10, 102, 194);
+  }
+  .hero .social-links .yt:hover a,
+  .hero .social-links .fb:hover a,
+  .hero .social-links .tg:hover a,
+  .hero .social-links .lk:hover a {
+    color: white;
+  }
+  .hero .social-links span {
+    margin-right: 40px;
+  }
+/* #################### */
+.hero .container .row .hero-text h1{
+font-size: 55px;
+}
+.hero .container .row .hero-text p{
+    font-size: 25px;
+}
+.hero .container .row form .col-sm-7 .form-control{
+    border-radius: none;
+
+}
+.hero .container .row form .col-sm-7 .form-control:focus{
+box-shadow: none;
+outline: 0;
+    border: 1px solid #2042e3
+}
+.hero .container .row form .col-sm-5 button{
+    border: none;
+    transition: all 0.3s;
+}
+.hero .container .row form .col-sm-5 button:hover{
+    background-color: #1a1a1a;
+
+}
+.hero .container .row form .col-sm-5 button i{
+    margin-right: 5px;
+}
+.hero .container .row form button{
+    width: 100%;
+}
+.hero .container .row .job-counter .row .col-md-4 h4{
+    color:#2042e3;
+
+}
+.hero .container .row .job-counter .row .col-md-4 span{
+    color:#454545;
+    font-size:16px;
+}
+.hero .container .row .hero-video {
+    position: relative;
+}
+.hero .container .row .hero-video i{
+    font-size:70px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    color:white;
+}
+/*=============Working-Process============*/
+.Working-Process .container .row p{
+    color:#2042e3;
+}
+.Working-Process .container .row .col-md-3 {
+transition: all 0.5s;
+}
+.Working-Process .container .row .col-md-3:hover {
+transform: translateY(-12px);
+}
+.Working-Process .container .row .col-md-3:nth-child(2) .white,
+.Working-Process .container .row .col-md-3:nth-child(4) .white{
+    margin-top: 25px;
+}
+.Working-Process .container .row .white{
+    background-color: white;
+    padding:50px  20px;
+    box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+    border-radius: 30px 0 30px 0;
+
+}
+
+.Working-Process .container .row .white h4{
+    font-size:18px;
+}
+.Working-Process .container .row .white i{
+    font-size: 40px;
+    color:#2042e3;
+    padding-bottom: 10px;
+}
+/*============top-hiring============*/
+.top-hiring .container .row p{
+    color:#2042e3;
+}
+.top-hiring .companies {
+    background-color: white;
+    padding: 40px 20px 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 5px 20px 3px rgba(230, 233, 249, 0.9);
+  }
+  .top-hiring .companies .owl-theme .owl-nav .owl-prev span,
+  .top-hiring .companies .owl-theme .owl-nav .owl-next span {
+    font-size: 30px;
+    padding: 10px 15px;
+    transition: all 0.3s;
+  }
+  .top-hiring .companies .owl-theme .owl-nav .owl-prev:hover,
+  .top-hiring .companies .owl-theme .owl-nav .owl-next:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
+/*=============Hot-Jobs=================*/
+.Hot-Jobs .container .row .hot>p{
+    color:#2042e3;
+}
+.Hot-Jobs .container .row .comp #dino-select{
+    width:90%;
+    padding:5px;
+}
+.Hot-Jobs .container .row .comp2 #dino-select{
+    width:22%;
+    padding:5px;
+}
+.Hot-Jobs .container .row .comp2 #dino-select option{
+    background-color: white;
+} 
+.Hot-Jobs .container .row .HotJobs .white .row{
+    background-color: white;
+    margin: 17px 0px;
+    padding: 10px 0px;
+    border-radius: 30px 0px 30px;
+    box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.Hot-Jobs .container .row .HotJobs .white .row:hover{
+    transform: translateY(-10px);
+}
+.Hot-Jobs .container .row .HotJobs .white .row .Full{
+    position: absolute;
+    top: 20px;   
+    left: -327px;
+    background-color: #2042e3;
+    color: #fff;
+    padding: 5px 40px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    font-size: 14px;
+    
+}
+.Hot-Jobs .container .row .HotJobs .white .row  img{
+    padding: 10px 0px;
+    border-radius: 30px 0px 30px;
+    box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%)
+}
+.Hot-Jobs .container .row .HotJobs .white .row:hover h3{
+color:#2042e3;
+}
+.Hot-Jobs .container .row .HotJobs .white .row h4 {
+    font-size: 15px;
+}
+.Hot-Jobs .container .row .HotJobs .white .row h4 span{
+    font-weight: 700;
+}
+.Hot-Jobs .container .row .HotJobs .white .row a{
+    width:95%;
+    padding:8px;
+    border: none;
+}
+.Hot-Jobs .container .row .HotJobs .white .row a:hover{
+    background-color: #1a1a1a;
+}
+.Hot-Jobs .container .heads{
+    display: flex;
+}
+
+.Hot-Jobs .container .col-lg-4 .white{
+    background-color: white;
+    width:100%;
+    padding: 20px ;
+    box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+    border-bottom-right-radius: 30px;
+}
+.Hot-Jobs .container .col-lg-4 .white h3{
+    
+    font-size: 24px;
+}
+
+.Hot-Jobs .container .col-lg-4 .white ul {
+    list-style-type: none;
+    padding:0px;
+}
+.Hot-Jobs .container .col-lg-4 .white ul li{
+    margin-bottom: 15px;
+    padding:0px;
+    font-weight: 600;
+    position: relative;
+    padding-left:40px;
+}
+.Hot-Jobs .container .col-lg-4 .white ul li span{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 21px;
+    border: 1px dashed rgb(32,66,227);
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(32,66,227);
+    background-color: white
+
+}
+.Hot-Jobs .container .col-lg-4 .white ul li span::before{
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 12px;
+    width: 1px;
+    height: 100%;
+    border-right: 1px dashed rgb(32, 66, 227);  
+}
+.Hot-Jobs .container .col-lg-4 .white ul li:last-child span::before{
+    border-right:none;
+    height: 0px;
+}
+.Hot-Jobs .container .col-lg-4 .white ul li a{
+    text-decoration: none;
+}
+.Hot-Jobs .container .col-lg-4 .white:last-child{
+    border-top-left-radius: 30px;
+}
+.Hot-Jobs .container .col-lg-4 .white:last-child ul li{
+    padding: 0px;
+}
+.Hot-Jobs .container .col-lg-4 .white:last-child ul li i{
+    margin-right: 15px;
+}
+/*==============Global-Talent===================*/
+.Global-Talent .container .row .col-md-7 p{
+    color:#2042e3
+}
+.Global-Talent .container .row .col-md-7 h3{
+    font-size:50px;
+}
+.Global-Talent .container .row .col-md-7 ul {
+    list-style-type: none;
+    padding:0px;
+
+}
+.Global-Talent .container .row .col-md-7 ul li{
+    padding:15px;
+}
+.Global-Talent .container .row .col-md-7 ul li img{
+    margin-right: 15px;
+    box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+}
+
+/* ########################## */
+.Global-Talent .container .row .resources h3 {
+    padding: 20px;
+    background-color: rgb(240, 240, 250);
+    margin: 0px;
+    border-radius: 30px 0px 0px;
+  }
+  .Global-Talent .container .row .resources .minicards {
+    background-color: white;
+    border-radius: 0px 0px 30px;
+    padding: 30px 30px;
+  }
+  .Global-Talent .container .row .resources .minicards .row .col-md-6 > div {
+    padding: 20px 10px;
+    border-radius: 30px 0px 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px 3px rgba(230, 233, 249, 0.9);
+  }
+  .Global-Talent .container .row .resources .minicards .row .col-md-6:nth-child(2) > div,
+  .Global-Talent .container .row .resources .minicards .row .col-md-6:nth-child(4) > div {
+    margin-top: 30px;
+  }
+  .Global-Talent .container .row .resources .minicards .row .col-md-6{
+    transition: all 0.4s;
+  }
+  .Global-Talent .container .row .resources .minicards .row .col-md-6:hover{
+    transform: translateY(-10px);
+  }
+  .Global-Talent .container .row .resources .minicards .row .col-md-6 i {
+    font-size: 50px;
+    color: rgb(32, 66, 227);
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+  .Global-Talent .container .row .resources .minicards .row .col-md-6 h2 {
+    font-size: 24px;
+    color: rgb(26, 26, 26);
+    font-weight: 700;
+  }
+
+/* ############ offer############## */
+section.offers h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  section.offers .accordion .accordion-item,
+  section.offers .accordion .accordion-item button {
+    border-radius: 30px 0px 0px;
+  }
+  
+  section.offers .accordion .accordion-item,
+  section.offers .accordion .accordion-item h2 button {
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(26, 26, 26);
+    border: none;
+    transition: all 0.3s;
+  }
+  section.offers .accordion .accordion-item h2 {
+    margin: 0;
+  }
+  section.offers .accordion .accordion-item h2 button:focus {
+    box-shadow: none;
+  }
+  
+  section.offers .accordion .accordion-item h2 button[aria-expanded="true"] {
+    background-color: rgb(240, 240, 250);
+    color: rgb(32, 66, 227);
+    padding: 20px;
+  }
+  section.offers .accordion .accordion-item .accordion-collapse .accordion-body {
+    background-color: white;
+    border-radius: 0px 0px 30px;
+  
+  }
+  section.offers
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body
+    ul,
+  section.offers
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body
+    li {
+    padding: 0px;
+    list-style-type: none;
+  }
+  section.offers
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body
+    li
+    a {
+    text-decoration: none;
+  }
+  /*================subscribe===============*/
+  section.subscribe {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  }
+  section.subscribe::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(247, 247, 251);
+    z-index: -1;
+  }
+  section.subscribe .container > .row {
+    padding: 50px 100px;
+    background-color: rgb(240, 240, 250);
+    font-weight: 700;
+    font-family: var(--secondry-font);
+  }
+  /*============== footer==============*/
+  footer {
+    background-color: white;
+  }
+  footer .logo ul {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  footer .logo ul li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  footer .logo ul li a i {
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.5s;
+  }
+  footer .logo ul li a i:hover{
+    color: white;
+    background-color: #2042e3;
+    border-color: #2042e3;
+  }
+footer i{
+    color: #2042e3;
+}
+footer span{
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 500;
+}
+footer a.email{
+    color:#454545
+}
+
+
+
+
+
+/*=================== job page====================*/
+
+.top {
+background-color:#f7f7fb;
+}
+.top .container h2{
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.top .container ol li a{
+  text-decoration: none;
+  font-weight: bold;
+  color:#1a1a1a;
+}
+.top .container ol li:last-child{
+  color:#2042e3;
+}
+/*===============Hot-Jobs===============*/
+.Hot-Jobs .container .row form input{
+    border-radius: 25px;
+    box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+    height: 50px;
+    color: #2042e3;
+    border: 1px solid #ebebeb;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  .Hot-Jobs .container .row form{
+    margin-bottom: 15px;
+  }
+.Hot-Jobs .container .row form button{
+      padding: 15px 25px;
+      height: 50px;
+      width: 100%;
+
+    }
+ .Hot-Jobs .container .row form button:hover{
+  background-color: #1a1a1a;
+  color: #fff;
+ }
+ .Hot-Jobs .container .row form button i{
+  margin-right: 8px;
+ }
+  .Hot-Jobs .container .row  .accordion .accordion-item,
+  .Hot-Jobs .container .row  .accordion .accordion-item button {
+   border-radius: 30px 0px 0px;
+ }
+ 
+  .Hot-Jobs .container .row  .accordion .accordion-item,
+  .Hot-Jobs .container .row  .accordion .accordion-item h2 button {
+   background-color: transparent;
+   font-size: 18px;
+   font-weight: 700;
+   color: rgb(26, 26, 26);
+   border: none;
+   transition: all 0.3s;
+ }
+  .Hot-Jobs .container .row  .accordion .accordion-item h2 {
+   margin: 0;
+ }
+  .Hot-Jobs .container .row  .accordion .accordion-item h2 button:focus {
+   box-shadow: none;
+ }
+ 
+  .Hot-Jobs .container .row  .accordion .accordion-item h2 button {
+   background-color: rgb(240, 240, 250);
+   padding: 20px;
+ }
+  .Hot-Jobs .container .row  .accordion .accordion-item .accordion-collapse .accordion-body {
+   background-color: white;
+   border-radius: 0px 0px 30px;
+   padding-left: 25px;
+   font-size: 18px;
+   font-weight: 500;
+   color:#454545;
+ 
+ }
+ .Hot-Jobs .container .row  .accordion .accordion-item .accordion-collapse .accordion-body input {
+ margin-right: 5px;
+ margin-bottom: 10px;
+}
+  .Hot-Jobs .container .row 
+   .accordion
+   .accordion-item
+   .accordion-collapse
+   .accordion-body
+   ul,
+  .Hot-Jobs .container .row 
+   .accordion
+   .accordion-item
+   .accordion-collapse
+   .accordion-body
+   li {
+   padding: 0px;
+   list-style-type: none;
+ }
+  .Hot-Jobs .container .row 
+   .accordion
+   .accordion-item
+   .accordion-collapse
+   .accordion-body
+   li
+ a {
+   text-decoration: none;
+ }
+ /*=================== About Us page====================*/
+
+.aboutUs .container .row .about-text h2{
+  font-size: 30px;
+  margin-bottom: 20px; 
+}
+.aboutUs .container .row .about-text p:first-child{
+  color: #2042e3;
+}
+.aboutUs .container .row .about-text p:last-child{
+  color: #454545;
+}
+ /*=================== Contact Us page ====================*/
+.forms .container .row h3{
+  background-color: #f0f0fa;
+    font-size: 24px;
+    padding: 15px 30px;
+    border-top-left-radius: 30px;
+    margin-bottom: 0px;
+}
+.forms .container .row form{
+  padding: 0px 15px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+}
+.forms .container .row form input{
+  height: 50px;
+}
+.forms .container .row form input,
+.forms .container .row form textarea{
+  box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+}
+.forms .container .row form .row:nth-child(4) input{
+  height: auto;
+  box-shadow: none;
+}
+.forms .container .row form .btn{
+  background-color: #2042e3;
+  color: white;
+  padding: 15px 40px;
+}
+.forms .container .row .col-md-4 .contact-info ul{
+  list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+    border-radius: 0 0 30px 0;
+}
+.forms .container .row .col-md-4 .contact-info ul li{
+  position: relative;
+    margin-bottom: 20px;
+    padding-left: 70px;
+}
+.forms .container .row .col-md-4 .contact-info ul li i{
+  position: absolute;
+    left: 0;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px dashed #2042e3;
+    color: #2042e3;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 8px 0 8px 0;
+}
+.forms .container .row .col-md-4 .contact-info ul li i span{
+  display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #454545;
+}
+.forms .container .row .col-md-4 .contact-info ul li a{
+  color: #454545;
+    display: block;
+    text-decoration: none;
+}
+
+/* ============= Login page ============= */
+.login .container .row h3{
+  background-color: #f0f0fa;
+    font-size: 24px;
+    padding: 15px 30px;
+    border-top-left-radius: 30px;
+    margin-bottom: 0px;
+}
+.login .container .row form{
+  padding: 0px 15px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+}
+.login .container .row form .form-control{
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+}
+.login .container .row form .btn{
+  background-color: #2042e3;
+  color: white;
+  padding: 15px 40px;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: all 0.4s;
+}
+.login .container .row form .btn:hover{
+  background-color: #1a1a1a;
+}
+.login .container .row form .reg{
+  border-radius: 5px;
+  padding: 15px 40px;
+}
+.login .container .row form .reg:hover{
+  cursor: pointer;
+  background-color: #2042e3;
+}
+.login .container .row form .reg:hover a{
+  color: white;
+}
+.login .container .row form .reg a{
+  text-decoration: none;
+  padding: 50px 20px;
+
+}
+/* ============= Login page ============= */
+.register .container .row h3{
+  background-color: #f0f0fa;
+    font-size: 24px;
+    padding: 15px 30px;
+    border-top-left-radius: 30px;
+    margin-bottom: 0px;
+}
+.register .container .row form{
+  padding: 0px 15px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+}
+.register .container .row form .form-control{
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 5px 20px 3px rgb(230 233 249 / 90%);
+}
+
+.register .container .row form .btn{
+  background-color: #2042e3;
+  color: white;
+  padding: 15px 40px;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: all 0.4s;
+}
+.register .container .row form .btn:hover{
+  background-color: #1a1a1a;
+}
+.register .container .row form h6 a{
+  text-decoration: none;
+}
+.register .container .row form h6 a:hover{
+  cursor: pointer;
+}
